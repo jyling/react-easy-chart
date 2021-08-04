@@ -245,10 +245,6 @@ export default class PieChart extends PureComponent {
         .on('mouseout', mouseout)
         .on('mousemove', mousemove)
         .on('click', click)
-        .transition()
-        .duration(750)
-        .attrTween('d', this.tweenSlice);
-
       /*
        * Add new slices
        */
